@@ -1,0 +1,48 @@
+Fronted
+
+NavBar: (Component)
+  - Icon
+  - SearchBar
+  - PersonalDetails
+  - CategoriesFilter
+  - NavLinks
+
+SideBar: (Component)
+  - Filters (Depende de la pagina actual)
+
+Footer:
+  - EmailRequest
+  - Contact
+
+Home: (Page)
+  - Adds
+  - BestSellers - > ProductGrid
+  - Hot Product for This Week  - > ProductGrid
+  - New Products  - > ProductGrid
+  - CategoriesGrid
+    - CategoryCard
+
+Shop: (Page)
+  - ProductFilter
+  - ProductGrid
+
+Shopping cart: (Page)
+  - ProductsList:
+    - ProcuctSummary
+  - CartSummary
+
+Login: (Page)
+  - Sign in
+  - Sing up
+
+My Account (Page):
+  - (Por Determinar)
+
+About Us: (Page)
+  - (Por Determinar)
+
+Componentes:
+  - ProductGrid
+    - ProductCard
+      - ProductDetail
+
