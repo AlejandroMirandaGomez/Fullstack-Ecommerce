@@ -6,7 +6,7 @@ function SearchForm({ handleSearch, searchTerm, setSearchTerm }) {
       <form
         action=""
         onSubmit={handleSearch}
-        className="flex bg-gray-200 rounded-lg w-full focus-within:ring-1 focus-within:ring-gray-400"
+        className="flex bg-gray-200 rounded-lg w-full focus-within:ring-1 focus-within:ring-gray-400 shadow-md"
       >
         <input
           type="text"

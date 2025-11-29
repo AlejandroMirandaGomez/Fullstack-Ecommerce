@@ -11,7 +11,7 @@ function UserMenu() {
     <div className="flex items-center justify-center pr-4 gap-4">
       <Link
         to="/my-account"
-        className="cursor-pointer hover:scale-105 border-2 p-2 rounded-4xl border-gray-200"
+        className="cursor-pointer hover:scale-105 border-2 p-2 rounded-4xl border-gray-200 shadow-sm"
       >
         <img src={Profile} alt="User Profile" className="w-5 h-5" />
       </Link>
@@ -20,7 +20,7 @@ function UserMenu() {
 
       <Link
         to="/shopping-cart"
-        className="relative inline-flex items-center justify-center cursor-pointer hover:scale-105 border-2 p-2 rounded-4xl border-gray-200 bg-orange-50 "
+        className="relative inline-flex items-center justify-center cursor-pointer hover:scale-105 border-2 p-2 rounded-4xl border-gray-200 bg-orange-50 shadow-sm"
       >
         <span className="absolute -top-1 -right-1 size-4 px-1 rounded-full bg-orange-600 text-white text-[11px] flex items-center justify-center">
           {NUMBER_ITEMS_CART > 0 && NUMBER_ITEMS_CART}

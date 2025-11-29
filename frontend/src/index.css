@@ -1,1 +1,10 @@
 @import "tailwindcss";
+
+@layer components {
+  .navbar-link {
+    @apply hover:bg-blue-50 hover:text-sky-500 px-3 py-2 rounded-2xl flex gap-2 items-center justify-center ;
+  }
+  .navbar-link--active {
+    @apply border-white;
+  }
+}
