@@ -7,7 +7,7 @@ function Header() {
   return (
     <header className="border-b border-gray-300">
       <div>
-        <div className="flex flex-wrap h-auto py-4 gap-4 w-screen items-center justify-between lg:gap-20 xl:px-40 lg:px-20 md:px-10">
+        <div className="flex flex-wrap h-auto py-4 gap-4 w-screen items-center justify-between lg:gap-20 xl:px-40 lg:px-15 md:px-5">
           <Icon />
           <SearchForm />
           <UserMenu />

@@ -5,7 +5,7 @@ import { MdOutlineShoppingCart as ShopCart } from "react-icons/md";
 
 function UserMenu() {
   const CASH = 0.00;
-  const NUMBER_ITEMS_CART = 1;
+  const NUMBER_ITEMS_CART = 4;
 
   return (
     <div className="flex items-center justify-center pr-4 gap-4">
