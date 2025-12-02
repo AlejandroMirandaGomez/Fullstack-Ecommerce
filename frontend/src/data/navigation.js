@@ -10,7 +10,7 @@ const navigationData = [
 
   {
     name: "SHOP",
-    url: "/shop?category=meats",
+    url: "/shop",
     icon: null,
     submenu: {},
   },

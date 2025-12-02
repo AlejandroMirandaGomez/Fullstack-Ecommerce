@@ -11,7 +11,7 @@ function SideBar() {
   const [openItems, setOpenItems] = useState({});
 
   return (
-    <aside className="absolute pt-4 top-full left-0">
+    <aside className="absolute pt-4 top-full left-0 font-semibold">
       <nav className="bg-gray-50 z-50 drop-shadow-xl rounded-md text-black shadow-md">
         <ul className="list-none flex flex-col whitespace-nowrap">
           {sidebarNavigationData.map((item) => {

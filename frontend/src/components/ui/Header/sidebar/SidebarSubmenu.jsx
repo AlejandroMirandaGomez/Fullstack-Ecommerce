@@ -9,7 +9,7 @@ function SidebarSubmenu({ data }) {
             return (
               <li
                 key={item.name}
-                className="flex items-center py-0.5 px-8 gap-2 hover:text-sky-400 text-neutral-700"
+                className="flex items-center py-0.5 pr-8 pl-18 gap-2 hover:text-sky-400 "
               >
                 <Link to={item.url} className="uppercase whitespace-nowrap">
                   {item.name}
