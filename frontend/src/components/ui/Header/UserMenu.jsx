@@ -8,7 +8,7 @@ function UserMenu() {
   const NUMBER_ITEMS_CART = 4;
 
   return (
-    <div className="flex items-center justify-center pr-4 gap-4">
+    <div className="flex items-center justify-between px-4 sm:justify-center gap-4 w-full sm:w-auto sm:pr-4 sm:pl-0">
       <Link
         to="/my-account"
         className="cursor-pointer hover:scale-105 border-2 p-2 rounded-4xl border-gray-200 shadow-sm"
