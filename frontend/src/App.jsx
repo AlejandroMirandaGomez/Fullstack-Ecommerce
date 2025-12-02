@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="flex flex-col w-screen xl:px-40 lg:px-20 lg:gap-20 md:px-10">
+      <main className="flex flex-col w-full xl:px-40 lg:px-20 lg:gap-20 md:px-10">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />

@@ -2,7 +2,7 @@ import SearchIcon from "../../../assets/search.svg";
 
 function SearchForm({ handleSearch, searchTerm, setSearchTerm }) {
   return (
-    <div className="flex-1 px-4 flex items-center justify-center order-1 min-w-screen sm:order-0 sm:min-w-0">
+    <div className="flex-1 px-4 flex items-center justify-center order-1 min-w-72 sm:order-0 sm:min-w-0">
       <form
         action=""
         onSubmit={handleSearch}
@@ -21,7 +21,10 @@ function SearchForm({ handleSearch, searchTerm, setSearchTerm }) {
           type="submit"
           className="p-3 md:flex-none cursor-pointer hover:scale-110 w-12 justify-center items-center flex"
         >
-          <img src={SearchIcon} alt="Search" className="" />
+          <img
+            src={SearchIcon}
+            alt="Search"
+          />
         </button>
       </form>
     </div>

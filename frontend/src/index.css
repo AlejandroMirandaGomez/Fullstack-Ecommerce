@@ -8,3 +8,8 @@
 
   --font-sans: "Inter", system-ui, sans-serif;
 }
+
+body {
+  overflow-x: hidden;
+}
+
