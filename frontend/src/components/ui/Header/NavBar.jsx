@@ -1,6 +1,7 @@
 import { Link, useLocation } from "react-router-dom";
 
 import SubMenu from "./SubMenu";
+import SideBar from "./sidebar/SideBar";
 
 import { CgMenu as HamburgerMenu } from "react-icons/cg";
 import { CgChevronDown as DownArrow } from "react-icons/cg";
@@ -13,10 +14,11 @@ function NavBar() {
   return (
     <nav className="xl:px-40 lg:px-15 md:px-5 flex">
       <div className="px-4 pb-4 w-full flex justify-between items-center flex-wrap md:gap-4 md:flex-nowrap ">
-        <div className="flex justify-center items-center gap-2 cursor-pointer px-5 py-2 w-full text-white font-semibold bg-sky-400 rounded-2xl order-1 shadow-md mt-4 md:mt-0 md:order-0 md:w-auto md:justify-end">
+        <div className="flex justify-center items-center gap-2 cursor-pointer px-5 py-2 w-full text-white font-semibold bg-sky-400 rounded-2xl order-1 shadow-md mt-4 md:mt-0 md:order-0 md:w-auto md:justify-end relative">
           <HamburgerMenu className="size-6" />
           <span className="md:hidden lg:inline">ALL CATEGORIES</span>
           <DownArrow className="size-6 ml-2 md:hidden lg:inline" />
+          <SideBar/>
         </div>
 
         <div className="flex flex-1 justify-center md:justify-end">

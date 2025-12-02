@@ -1,8 +1,6 @@
-import { TbMeat as Meat } from "react-icons/tb";
-import { LuCakeSlice as Bakery } from "react-icons/lu";
-import { FiCoffee as Drinks } from "react-icons/fi";
+import { sidebarNavigationData } from "./sidebar-navigation";
 
-export const navigationData = [
+const navigationData = [
   {
     name: "HOME",
     url: "/",
@@ -12,83 +10,10 @@ export const navigationData = [
 
   {
     name: "SHOP",
-    url: "/shop",
+    url: "/shop?category=meats",
     icon: null,
     submenu: {},
   },
-
-  {
-    name: "MEATS",
-    url: "/shop-meats",
-    icon: Meat,
-    submenu: [
-      {
-        name: "Beef",
-        url: "shop?category=meats&subcategory=beef",
-      },
-      {
-        name: "Pork",
-        url: "shop?category=meats&subcategory=pork",
-      },
-      {
-        name: "Poultry",
-        url: "shop?category=meats&subcategory=poultry",
-      },
-      {
-        name: "Lamb",
-        url: "shop?category=meats&subcategory=lamb",
-      },
-    ],
-  },
-
-  {
-    name: "BAKERY",
-    url: "/shop-bakery",
-    icon: Bakery,
-    submenu: [
-      {
-        name: "Breads",
-        url: "shop?category=bakery&subcategory=breads",
-      },
-      {
-        name: "Pastries",
-        url: "shop?category=bakery&subcategory=pastries",
-      },
-      {
-        name: "Cakes",
-        url: "shop?category=bakery&subcategory=cakes",
-      },
-      {
-        name: "Cookies",
-        url: "shop?category=bakery&subcategory=cookies",
-      },
-    ],
-  },
-
-  {
-    name: "DRINKS",
-    url: "/shop-drinks",
-    icon: Drinks,
-    submenu: [
-      {
-        name: "Soft Drinks",
-        url: "shop?category=drinks&subcategory=soft%20drinks",
-      },
-      {
-        name: "Juices",
-        url: "shop?category=drinks&subcategory=juices",
-      },
-      {
-        name: "Alcoholic Beverages",
-        url: "shop?category=drinks&subcategory=alcoholic%20beverages",
-      },
-      {
-        name: "Hot Beverages",
-        url: "shop?category=drinks&subcategory=hot%20beverages",
-      },
-    ],
-  },
-
   {
     name: "BLOG",
     url: "/blog",
@@ -103,3 +28,7 @@ export const navigationData = [
     submenu: {},
   },
 ];
+
+navigationData.splice(2, 0, ...sidebarNavigationData.slice(0, 3));
+
+export {navigationData};
