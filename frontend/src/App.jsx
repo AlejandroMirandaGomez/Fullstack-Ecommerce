@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 
-import Header from "./components/ui/Header/Header";
-import Home from "./pages/Home";
+import Header from "./components/ui/header/Header";
+import Home from "./pages/home/Home";
 import AboutUs from "./pages/AboutUs";
 import Login from "./pages/Login";
 import MyAccount from "./pages/MyAccount";
@@ -12,7 +12,7 @@ function App() {
   return (
     <>
       <Header />
-      <main className="flex flex-col w-full xl:px-40 lg:px-20 lg:gap-20 md:px-10">
+      <main className="flex flex-col w-full">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about-us" element={<AboutUs />} />
