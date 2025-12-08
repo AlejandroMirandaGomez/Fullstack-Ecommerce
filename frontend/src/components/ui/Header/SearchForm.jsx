@@ -1,4 +1,4 @@
-import SearchIcon from "../../../assets/search.svg";
+import SearchIcon from "../../../assets/header/search.svg";
 
 function SearchForm({ handleSearch, searchTerm, setSearchTerm }) {
   return (

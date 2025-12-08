@@ -99,7 +99,7 @@ function BannerSlider() {
 
   return (
     <section className="w-full">
-      <div className="w-full max-w-6xl mx-auto pb-6">
+      <div className="w-full max-w-full mx-auto mb-8">
         <Slider {...settings}>
           {banners.map((banner) => (
             <div key={banner.id}>

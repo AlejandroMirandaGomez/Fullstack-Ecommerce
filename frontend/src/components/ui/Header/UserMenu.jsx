@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-import Profile from "../../../assets/profile.svg";
+import Profile from "../../../assets/header/profile.svg";
 import { MdOutlineShoppingCart as ShopCart } from "react-icons/md";
 
 function UserMenu() {

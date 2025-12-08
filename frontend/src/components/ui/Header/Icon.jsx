@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import DexShop from "../../../assets/DexShop-Logo-2-removebg.png";
+import DexShop from "../../../assets/header/DexShop-Logo-2-removebg.png";
 
 function Icon() {
   return (
