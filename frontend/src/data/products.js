@@ -9,7 +9,8 @@ export const products = [
     imageUrl: "/products/beef-ribeye.jpg",
     discount: 10,
     inStock: true,
-    category: "Beef",
+    subcategory: "Beef",
+    category: "Meats",
   },
   {
     id: 2,
@@ -18,7 +19,8 @@ export const products = [
     imageUrl: "/products/ground-beef.jpg",
     discount: 0,
     inStock: true,
-    category: "Beef",
+    subcategory: "Beef",
+    category: "Meats",
   },
   {
     id: 3,
@@ -27,7 +29,8 @@ export const products = [
     imageUrl: "/products/beef-sirloin.jpg",
     discount: 5,
     inStock: true,
-    category: "Beef",
+    subcategory: "Beef",
+    category: "Meats",
   },
 
   // Pork
@@ -38,7 +41,8 @@ export const products = [
     imageUrl: "/products/pork-chops.jpg",
     discount: 0,
     inStock: true,
-    category: "Pork",
+    subcategory: "Pork",
+    category: "Meats",
   },
   {
     id: 5,
@@ -47,7 +51,8 @@ export const products = [
     imageUrl: "/products/pork-tenderloin.jpg",
     discount: 15,
     inStock: true,
-    category: "Pork",
+    subcategory: "Pork",
+    category: "Meats",
   },
   {
     id: 6,
@@ -56,7 +61,8 @@ export const products = [
     imageUrl: "/products/bacon.jpg",
     discount: 0,
     inStock: true,
-    category: "Pork",
+    subcategory: "Pork",
+    category: "Meats",
   },
 
   // Poultry
@@ -67,7 +73,8 @@ export const products = [
     imageUrl: "/products/chicken-breast.jpg",
     discount: 0,
     inStock: true,
-    category: "Poultry",
+    subcategory: "Poultry",
+    category: "Meats",
   },
   {
     id: 8,
@@ -76,7 +83,8 @@ export const products = [
     imageUrl: "/products/whole-chicken.jpg",
     discount: 5,
     inStock: true,
-    category: "Poultry",
+    subcategory: "Poultry",
+    category: "Meats",
   },
   {
     id: 9,
@@ -85,7 +93,8 @@ export const products = [
     imageUrl: "/products/chicken-wings.jpg",
     discount: 0,
     inStock: false,
-    category: "Poultry",
+    subcategory: "Poultry",
+    category: "Meats",
   },
 
   // Lamb
@@ -96,7 +105,8 @@ export const products = [
     imageUrl: "/products/lamb-chops.jpg",
     discount: 0,
     inStock: true,
-    category: "Lamb",
+    subcategory: "Lamb",
+    category: "Meats",
   },
   {
     id: 11,
@@ -105,7 +115,8 @@ export const products = [
     imageUrl: "/products/ground-lamb.jpg",
     discount: 10,
     inStock: true,
-    category: "Lamb",
+    subcategory: "Lamb",
+    category: "Meats",
   },
   {
     id: 12,
@@ -114,7 +125,8 @@ export const products = [
     imageUrl: "/products/lamb-shoulder.jpg",
     discount: 0,
     inStock: true,
-    category: "Lamb",
+    subcategory: "Lamb",
+    category: "Meats",
   },
 
   // ---------------------------------------------------------
@@ -127,7 +139,8 @@ export const products = [
     imageUrl: "/products/whole-wheat-bread.jpg",
     discount: 0,
     inStock: true,
-    category: "Breads",
+    subcategory: "Breads",
+    category: "Bakery",
   },
   {
     id: 14,
@@ -136,7 +149,8 @@ export const products = [
     imageUrl: "/products/baguette.jpg",
     discount: 0,
     inStock: true,
-    category: "Breads",
+    subcategory: "Breads",
+    category: "Bakery",
   },
   {
     id: 15,
@@ -145,7 +159,8 @@ export const products = [
     imageUrl: "/products/multigrain-bread.jpg",
     discount: 10,
     inStock: true,
-    category: "Breads",
+    subcategory: "Breads",
+    category: "Bakery",
   },
 
   // Pastries
@@ -156,7 +171,8 @@ export const products = [
     imageUrl: "/products/croissant.jpg",
     discount: 0,
     inStock: true,
-    category: "Pastries",
+    subcategory: "Pastries",
+    category: "Bakery",
   },
   {
     id: 17,
@@ -165,7 +181,8 @@ export const products = [
     imageUrl: "/products/danish.jpg",
     discount: 5,
     inStock: true,
-    category: "Pastries",
+    subcategory: "Pastries",
+    category: "Bakery",
   },
   {
     id: 18,
@@ -174,7 +191,8 @@ export const products = [
     imageUrl: "/products/cinnamon-roll.jpg",
     discount: 0,
     inStock: true,
-    category: "Pastries",
+    subcategory: "Pastries",
+    category: "Bakery",
   },
 
   // Cakes
@@ -185,7 +203,8 @@ export const products = [
     imageUrl: "/products/chocolate-cake.jpg",
     discount: 15,
     inStock: true,
-    category: "Cakes",
+    subcategory: "Cakes",
+    category: "Bakery",
   },
   {
     id: 20,
@@ -194,7 +213,8 @@ export const products = [
     imageUrl: "/products/cheesecake.jpg",
     discount: 0,
     inStock: true,
-    category: "Cakes",
+    subcategory: "Cakes",
+    category: "Bakery",
   },
   {
     id: 21,
@@ -203,7 +223,8 @@ export const products = [
     imageUrl: "/products/red-velvet.jpg",
     discount: 10,
     inStock: false,
-    category: "Cakes",
+    subcategory: "Cakes",
+    category: "Bakery",
   },
 
   // Cookies
@@ -214,7 +235,8 @@ export const products = [
     imageUrl: "/products/choc-chip-cookies.jpg",
     discount: 0,
     inStock: true,
-    category: "Cookies",
+    subcategory: "Cookies",
+    category: "Bakery",
   },
   {
     id: 23,
@@ -223,7 +245,8 @@ export const products = [
     imageUrl: "/products/oatmeal-cookies.jpg",
     discount: 0,
     inStock: true,
-    category: "Cookies",
+    subcategory: "Cookies",
+    category: "Bakery",
   },
   {
     id: 24,
@@ -232,7 +255,8 @@ export const products = [
     imageUrl: "/products/butter-cookies.jpg",
     discount: 5,
     inStock: true,
-    category: "Cookies",
+    subcategory: "Cookies",
+    category: "Bakery",
   },
 
   // ---------------------------------------------------------
@@ -245,7 +269,8 @@ export const products = [
     imageUrl: "/products/cola.jpg",
     discount: 0,
     inStock: true,
-    category: "Soft Drinks",
+    subcategory: "Soft Drinks",
+    category: "Drinks",
   },
   {
     id: 26,
@@ -254,7 +279,8 @@ export const products = [
     imageUrl: "/products/lemon-soda.jpg",
     discount: 5,
     inStock: true,
-    category: "Soft Drinks",
+    subcategory: "Soft Drinks",
+    category: "Drinks",
   },
   {
     id: 27,
@@ -263,7 +289,8 @@ export const products = [
     imageUrl: "/products/ginger-ale.jpg",
     discount: 0,
     inStock: false,
-    category: "Soft Drinks",
+    subcategory: "Soft Drinks",
+    category: "Drinks",
   },
 
   // Juices
@@ -274,7 +301,8 @@ export const products = [
     imageUrl: "/products/orange-juice.jpg",
     discount: 0,
     inStock: true,
-    category: "Juices",
+    subcategory: "Juices",
+    category: "Drinks",
   },
   {
     id: 29,
@@ -283,7 +311,8 @@ export const products = [
     imageUrl: "/products/apple-juice.jpg",
     discount: 0,
     inStock: true,
-    category: "Juices",
+    subcategory: "Juices",
+    category: "Drinks",
   },
   {
     id: 30,
@@ -292,7 +321,8 @@ export const products = [
     imageUrl: "/products/mixed-fruit-juice.jpg",
     discount: 10,
     inStock: true,
-    category: "Juices",
+    subcategory: "Juices",
+    category: "Drinks",
   },
 
   // Alcoholic Beverages
@@ -303,7 +333,8 @@ export const products = [
     imageUrl: "/products/red-wine.jpg",
     discount: 0,
     inStock: true,
-    category: "Alcoholic Beverages",
+    subcategory: "Alcoholic Beverages",
+    category: "Drinks",
   },
   {
     id: 32,
@@ -312,7 +343,8 @@ export const products = [
     imageUrl: "/products/craft-beer.jpg",
     discount: 5,
     inStock: true,
-    category: "Alcoholic Beverages",
+    subcategory: "Alcoholic Beverages",
+    category: "Drinks",
   },
   {
     id: 33,
@@ -321,7 +353,8 @@ export const products = [
     imageUrl: "/products/vodka.jpg",
     discount: 0,
     inStock: false,
-    category: "Alcoholic Beverages",
+    subcategory: "Alcoholic Beverages",
+    category: "Drinks",
   },
 
   // Hot Beverages
@@ -332,7 +365,8 @@ export const products = [
     imageUrl: "/products/coffee.jpg",
     discount: 0,
     inStock: true,
-    category: "Hot Beverages",
+    subcategory: "Hot Beverages",
+    category: "Drinks",
   },
   {
     id: 35,
@@ -341,7 +375,8 @@ export const products = [
     imageUrl: "/products/green-tea.jpg",
     discount: 0,
     inStock: true,
-    category: "Hot Beverages",
+    subcategory: "Hot Beverages",
+    category: "Drinks",
   },
   {
     id: 36,
@@ -350,7 +385,8 @@ export const products = [
     imageUrl: "/products/hot-chocolate.jpg",
     discount: 10,
     inStock: true,
-    category: "Hot Beverages",
+    subcategory: "Hot Beverages",
+    category: "Drinks",
   },
 
   // ---------------------------------------------------------
@@ -363,7 +399,8 @@ export const products = [
     imageUrl: "/products/bananas.jpg",
     discount: 0,
     inStock: true,
-    category: "Fresh Fruits",
+    subcategory: "Fresh Fruits",
+    category: "Fruits & vegetables",
   },
   {
     id: 38,
@@ -372,7 +409,8 @@ export const products = [
     imageUrl: "/products/apples.jpg",
     discount: 0,
     inStock: true,
-    category: "Fresh Fruits",
+    subcategory: "Fresh Fruits",
+    category: "Fruits & vegetables",
   },
   {
     id: 39,
@@ -381,7 +419,8 @@ export const products = [
     imageUrl: "/products/strawberries.jpg",
     discount: 5,
     inStock: false,
-    category: "Fresh Fruits",
+    subcategory: "Fresh Fruits",
+    category: "Fruits & vegetables",
   },
 
   // Fresh Vegetables
@@ -392,7 +431,8 @@ export const products = [
     imageUrl: "/products/carrots.jpg",
     discount: 0,
     inStock: true,
-    category: "Fresh Vegetables",
+    subcategory: "Fresh Vegetables",
+    category: "Fruits & vegetables",
   },
   {
     id: 41,
@@ -401,7 +441,8 @@ export const products = [
     imageUrl: "/products/broccoli.jpg",
     discount: 0,
     inStock: true,
-    category: "Fresh Vegetables",
+    subcategory: "Fresh Vegetables",
+    category: "Fruits & vegetables",
   },
   {
     id: 42,
@@ -410,7 +451,8 @@ export const products = [
     imageUrl: "/products/tomatoes.jpg",
     discount: 10,
     inStock: true,
-    category: "Fresh Vegetables",
+    subcategory: "Fresh Vegetables",
+    category: "Fruits & vegetables",
   },
 
   // Organic Produce
@@ -421,7 +463,8 @@ export const products = [
     imageUrl: "/products/spinach.jpg",
     discount: 0,
     inStock: true,
-    category: "Organic Produce",
+    subcategory: "Organic Produce",
+    category: "Fruits & vegetables",
   },
   {
     id: 44,
@@ -430,7 +473,8 @@ export const products = [
     imageUrl: "/products/organic-apples.jpg",
     discount: 5,
     inStock: true,
-    category: "Organic Produce",
+    subcategory: "Organic Produce",
+    category: "Fruits & vegetables",
   },
   {
     id: 45,
@@ -439,7 +483,8 @@ export const products = [
     imageUrl: "/products/organic-lettuce.jpg",
     discount: 0,
     inStock: true,
-    category: "Organic Produce",
+    subcategory: "Organic Produce",
+    category: "Fruits & vegetables",
   },
 
   // Herbs & Spices
@@ -450,7 +495,8 @@ export const products = [
     imageUrl: "/products/basil.jpg",
     discount: 0,
     inStock: true,
-    category: "Herbs & Spices",
+    subcategory: "Herbs & Spices",
+    category: "Fruits & vegetables",
   },
   {
     id: 47,
@@ -459,7 +505,8 @@ export const products = [
     imageUrl: "/products/rosemary.jpg",
     discount: 0,
     inStock: true,
-    category: "Herbs & Spices",
+    subcategory: "Herbs & Spices",
+    category: "Fruits & vegetables",
   },
   {
     id: 48,
@@ -468,7 +515,8 @@ export const products = [
     imageUrl: "/products/garlic.jpg",
     discount: 0,
     inStock: true,
-    category: "Herbs & Spices",
+    subcategory: "Herbs & Spices",
+    category: "Fruits & vegetables",
   },
 
   // ---------------------------------------------------------
@@ -481,7 +529,8 @@ export const products = [
     imageUrl: "/products/frozen-lasagna.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Meals",
+    subcategory: "Frozen Meals",
+    category: "Frozen foods",
   },
   {
     id: 50,
@@ -490,7 +539,8 @@ export const products = [
     imageUrl: "/products/frozen-pizza.jpg",
     discount: 10,
     inStock: true,
-    category: "Frozen Meals",
+    subcategory: "Frozen Meals",
+    category: "Frozen foods",
   },
   {
     id: 51,
@@ -499,7 +549,8 @@ export const products = [
     imageUrl: "/products/frozen-burritos.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Meals",
+    subcategory: "Frozen Meals",
+    category: "Frozen foods",
   },
 
   // Frozen Vegetables
@@ -510,7 +561,8 @@ export const products = [
     imageUrl: "/products/frozen-peas.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Vegetables",
+    subcategory: "Frozen Vegetables",
+    category: "Frozen foods",
   },
   {
     id: 53,
@@ -519,7 +571,8 @@ export const products = [
     imageUrl: "/products/frozen-spinach.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Vegetables",
+    subcategory: "Frozen Vegetables",
+    category: "Frozen foods",
   },
   {
     id: 54,
@@ -528,7 +581,8 @@ export const products = [
     imageUrl: "/products/frozen-mixed-veg.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Vegetables",
+    subcategory: "Frozen Vegetables",
+    category: "Frozen foods",
   },
 
   // Frozen Desserts
@@ -539,7 +593,8 @@ export const products = [
     imageUrl: "/products/frozen-cheesecake.jpg",
     discount: 5,
     inStock: true,
-    category: "Frozen Desserts",
+    subcategory: "Frozen Desserts",
+    category: "Frozen foods",
   },
   {
     id: 56,
@@ -548,7 +603,8 @@ export const products = [
     imageUrl: "/products/frozen-choco-cake.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Desserts",
+    subcategory: "Frozen Desserts",
+    category: "Frozen foods",
   },
   {
     id: 57,
@@ -557,7 +613,8 @@ export const products = [
     imageUrl: "/products/frozen-fruit-bars.jpg",
     discount: 0,
     inStock: true,
-    category: "Frozen Desserts",
+    subcategory: "Frozen Desserts",
+    category: "Frozen foods",
   },
 
   // Ice Cream
@@ -568,7 +625,8 @@ export const products = [
     imageUrl: "/products/vanilla-icecream.jpg",
     discount: 0,
     inStock: true,
-    category: "Ice Cream",
+    subcategory: "Ice Cream",
+    category: "Frozen foods",
   },
   {
     id: 59,
@@ -577,7 +635,8 @@ export const products = [
     imageUrl: "/products/choco-icecream.jpg",
     discount: 5,
     inStock: true,
-    category: "Ice Cream",
+    subcategory: "Ice Cream",
+    category: "Frozen foods",
   },
   {
     id: 60,
@@ -586,7 +645,8 @@ export const products = [
     imageUrl: "/products/strawberry-icecream.jpg",
     discount: 0,
     inStock: true,
-    category: "Ice Cream",
+    subcategory: "Ice Cream",
+    category: "Frozen foods",
   },
 
   // ---------------------------------------------------------
@@ -599,7 +659,8 @@ export const products = [
     imageUrl: "/products/whole-milk.jpg",
     discount: 0,
     inStock: true,
-    category: "Milk",
+    subcategory: "Milk",
+    category: "Dairy & eggs",
   },
   {
     id: 62,
@@ -608,7 +669,8 @@ export const products = [
     imageUrl: "/products/lowfat-milk.jpg",
     discount: 0,
     inStock: true,
-    category: "Milk",
+    subcategory: "Milk",
+    category: "Dairy & eggs",
   },
   {
     id: 63,
@@ -617,7 +679,8 @@ export const products = [
     imageUrl: "/products/almond-milk.jpg",
     discount: 5,
     inStock: true,
-    category: "Milk",
+    subcategory: "Milk",
+    category: "Dairy & eggs",
   },
 
   // Cheese
@@ -628,7 +691,8 @@ export const products = [
     imageUrl: "/products/cheddar.jpg",
     discount: 0,
     inStock: true,
-    category: "Cheese",
+    subcategory: "Cheese",
+    category: "Dairy & eggs",
   },
   {
     id: 65,
@@ -637,7 +701,8 @@ export const products = [
     imageUrl: "/products/mozzarella.jpg",
     discount: 0,
     inStock: true,
-    category: "Cheese",
+    subcategory: "Cheese",
+    category: "Dairy & eggs",
   },
   {
     id: 66,
@@ -646,7 +711,8 @@ export const products = [
     imageUrl: "/products/parmesan.jpg",
     discount: 10,
     inStock: true,
-    category: "Cheese",
+    subcategory: "Cheese",
+    category: "Dairy & eggs",
   },
 
   // Yogurt
@@ -657,7 +723,8 @@ export const products = [
     imageUrl: "/products/greek-yogurt.jpg",
     discount: 0,
     inStock: true,
-    category: "Yogurt",
+    subcategory: "Yogurt",
+    category: "Dairy & eggs",
   },
   {
     id: 68,
@@ -666,7 +733,8 @@ export const products = [
     imageUrl: "/products/strawberry-yogurt.jpg",
     discount: 0,
     inStock: true,
-    category: "Yogurt",
+    subcategory: "Yogurt",
+    category: "Dairy & eggs",
   },
   {
     id: 69,
@@ -675,7 +743,8 @@ export const products = [
     imageUrl: "/products/vanilla-yogurt.jpg",
     discount: 0,
     inStock: true,
-    category: "Yogurt",
+    subcategory: "Yogurt",
+    category: "Dairy & eggs",
   },
 
   // Eggs & Butter
@@ -686,7 +755,8 @@ export const products = [
     imageUrl: "/products/eggs.jpg",
     discount: 0,
     inStock: true,
-    category: "Eggs & Butter",
+    subcategory: "Eggs & Butter",
+    category: "Dairy & eggs",
   },
   {
     id: 71,
@@ -695,7 +765,8 @@ export const products = [
     imageUrl: "/products/salted-butter.jpg",
     discount: 5,
     inStock: true,
-    category: "Eggs & Butter",
+    subcategory: "Eggs & Butter",
+    category: "Dairy & eggs",
   },
   {
     id: 72,
@@ -704,7 +775,8 @@ export const products = [
     imageUrl: "/products/unsalted-butter.jpg",
     discount: 0,
     inStock: false,
-    category: "Eggs & Butter",
+    subcategory: "Eggs & Butter",
+    category: "Dairy & eggs",
   },
 
   // ---------------------------------------------------------
@@ -717,7 +789,8 @@ export const products = [
     imageUrl: "/products/potato-chips.jpg",
     discount: 0,
     inStock: true,
-    category: "Chips",
+    subcategory: "Chips",
+    category: "Snacks",
   },
   {
     id: 74,
@@ -726,7 +799,8 @@ export const products = [
     imageUrl: "/products/bbq-chips.jpg",
     discount: 5,
     inStock: true,
-    category: "Chips",
+    subcategory: "Chips",
+    category: "Snacks",
   },
   {
     id: 75,
@@ -735,7 +809,8 @@ export const products = [
     imageUrl: "/products/sourcream-chips.jpg",
     discount: 0,
     inStock: true,
-    category: "Chips",
+    subcategory: "Chips",
+    category: "Snacks",
   },
 
   // Candy & Chocolate
@@ -746,7 +821,8 @@ export const products = [
     imageUrl: "/products/chocolate-bar.jpg",
     discount: 0,
     inStock: true,
-    category: "Candy & Chocolate",
+    subcategory: "Candy & Chocolate",
+    category: "Snacks",
   },
   {
     id: 77,
@@ -755,7 +831,8 @@ export const products = [
     imageUrl: "/products/gummy-bears.jpg",
     discount: 0,
     inStock: true,
-    category: "Candy & Chocolate",
+    subcategory: "Candy & Chocolate",
+    category: "Snacks",
   },
   {
     id: 78,
@@ -764,7 +841,8 @@ export const products = [
     imageUrl: "/products/dark-chocolate.jpg",
     discount: 10,
     inStock: true,
-    category: "Candy & Chocolate",
+    subcategory: "Candy & Chocolate",
+    category: "Snacks",
   },
 
   // Nuts & Seeds
@@ -775,7 +853,8 @@ export const products = [
     imageUrl: "/products/mixed-nuts.jpg",
     discount: 0,
     inStock: true,
-    category: "Nuts & Seeds",
+    subcategory: "Nuts & Seeds",
+    category: "Snacks",
   },
   {
     id: 80,
@@ -784,7 +863,8 @@ export const products = [
     imageUrl: "/products/almonds.jpg",
     discount: 0,
     inStock: true,
-    category: "Nuts & Seeds",
+    subcategory: "Nuts & Seeds",
+    category: "Snacks",
   },
   {
     id: 81,
@@ -793,7 +873,8 @@ export const products = [
     imageUrl: "/products/sunflower-seeds.jpg",
     discount: 0,
     inStock: true,
-    category: "Nuts & Seeds",
+    subcategory: "Nuts & Seeds",
+    category: "Snacks",
   },
 
   // Crackers
@@ -804,7 +885,8 @@ export const products = [
     imageUrl: "/products/saltines.jpg",
     discount: 0,
     inStock: true,
-    category: "Crackers",
+    subcategory: "Crackers",
+    category: "Snacks",
   },
   {
     id: 83,
@@ -813,7 +895,8 @@ export const products = [
     imageUrl: "/products/wholegrain-crackers.jpg",
     discount: 10,
     inStock: true,
-    category: "Crackers",
+    subcategory: "Crackers",
+    category: "Snacks",
   },
   {
     id: 84,
@@ -822,7 +905,8 @@ export const products = [
     imageUrl: "/products/cheese-crackers.jpg",
     discount: 0,
     inStock: true,
-    category: "Crackers",
+    subcategory: "Crackers",
+    category: "Snacks",
   },
 
   // ---------------------------------------------------------
@@ -835,7 +919,8 @@ export const products = [
     imageUrl: "/products/white-rice.jpg",
     discount: 0,
     inStock: true,
-    category: "Rice & Grains",
+    subcategory: "Rice & Grains",
+    category: "Pantry",
   },
   {
     id: 86,
@@ -844,7 +929,8 @@ export const products = [
     imageUrl: "/products/brown-rice.jpg",
     discount: 5,
     inStock: true,
-    category: "Rice & Grains",
+    subcategory: "Rice & Grains",
+    category: "Pantry",
   },
   {
     id: 87,
@@ -853,7 +939,8 @@ export const products = [
     imageUrl: "/products/quinoa.jpg",
     discount: 0,
     inStock: true,
-    category: "Rice & Grains",
+    subcategory: "Rice & Grains",
+    category: "Pantry",
   },
 
   // Pasta & Noodles
@@ -864,7 +951,8 @@ export const products = [
     imageUrl: "/products/spaghetti.jpg",
     discount: 0,
     inStock: true,
-    category: "Pasta & Noodles",
+    subcategory: "Pasta & Noodles",
+    category: "Pantry",
   },
   {
     id: 89,
@@ -873,7 +961,8 @@ export const products = [
     imageUrl: "/products/penne.jpg",
     discount: 0,
     inStock: true,
-    category: "Pasta & Noodles",
+    subcategory: "Pasta & Noodles",
+    category: "Pantry",
   },
   {
     id: 90,
@@ -882,7 +971,8 @@ export const products = [
     imageUrl: "/products/ramen.jpg",
     discount: 0,
     inStock: true,
-    category: "Pasta & Noodles",
+    subcategory: "Pasta & Noodles",
+    category: "Pantry",
   },
 
   // Canned Goods
@@ -893,7 +983,8 @@ export const products = [
     imageUrl: "/products/beans.jpg",
     discount: 0,
     inStock: true,
-    category: "Canned Goods",
+    subcategory: "Canned Goods",
+    category: "Pantry",
   },
   {
     id: 92,
@@ -902,7 +993,8 @@ export const products = [
     imageUrl: "/products/corn.jpg",
     discount: 0,
     inStock: true,
-    category: "Canned Goods",
+    subcategory: "Canned Goods",
+    category: "Pantry",
   },
   {
     id: 93,
@@ -911,7 +1003,8 @@ export const products = [
     imageUrl: "/products/canned-tomatoes.jpg",
     discount: 5,
     inStock: true,
-    category: "Canned Goods",
+    subcategory: "Canned Goods",
+    category: "Pantry",
   },
 
   // Sauces & Condiments
@@ -922,7 +1015,8 @@ export const products = [
     imageUrl: "/products/tomato-sauce.jpg",
     discount: 0,
     inStock: true,
-    category: "Sauces & Condiments",
+    subcategory: "Sauces & Condiments",
+    category: "Pantry",
   },
   {
     id: 95,
@@ -931,7 +1025,8 @@ export const products = [
     imageUrl: "/products/soy-sauce.jpg",
     discount: 0,
     inStock: true,
-    category: "Sauces & Condiments",
+    subcategory: "Sauces & Condiments",
+    category: "Pantry",
   },
   {
     id: 96,
@@ -940,6 +1035,7 @@ export const products = [
     imageUrl: "/products/bbq-sauce.jpg",
     discount: 10,
     inStock: true,
-    category: "Sauces & Condiments",
+    subcategory: "Sauces & Condiments",
+    category: "Pantry",
   },
 ];

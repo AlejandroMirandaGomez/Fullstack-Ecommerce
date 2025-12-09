@@ -5,7 +5,7 @@ import Home from "./pages/home/Home";
 import AboutUs from "./pages/AboutUs";
 import Login from "./pages/Login";
 import MyAccount from "./pages/MyAccount";
-import Shop from "./pages/Shop";
+import Shop from "./pages/shop/Shop";
 import ShoppingCart from "./pages/ShoppingCart";
 
 function App() {

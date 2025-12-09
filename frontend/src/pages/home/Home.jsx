@@ -36,7 +36,7 @@ function Home() {
       <section aria-label="Promotional Banners">
         <BannerSlider />
       </section>
-      <section className="xl:px-40 lg:px-20 md:px-10 gap-6 w-full">
+      <section className="px-4 xl:px-40 lg:px-20 md:px-10 gap-6 w-full">
         <div className="flex flex-col lg:flex-row gap-8 w-full">
           <ProductSection
             data={{
