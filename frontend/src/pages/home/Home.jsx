@@ -63,7 +63,6 @@ function Home() {
           />
         </div>
       </section>
-      <footer className="h-52"></footer>
     </>
   );
 }

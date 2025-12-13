@@ -22,6 +22,7 @@ function App() {
           <Route path="/shopping-cart" element={<ShoppingCart />} />
         </Routes>
       </main>
+      <footer className="h-52"></footer>
     </>
   );
 }

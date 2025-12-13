@@ -1,8 +1,11 @@
 import ProductCard from "./ProductCard";
 
-function ProductGrid({ products }) {
+function ProductGrid({ products, className="" }) {
   return (
-    <section aria-label="Product Grid" className="w-full">
+    <section
+      aria-label="Product Grid"
+      className={"w-full " + className}
+    >
       <ul className="gap-0 flex flex-wrap items-center justify-center">
         {products.map((product) => (
           <li key={product.id} className="">

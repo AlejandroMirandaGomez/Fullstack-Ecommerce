@@ -1,12 +1,10 @@
+import formatPrice from "../../../util/FormatPrice";
+
 function ProductCard({ product }) {
   const hasDiscount = product.discount > 0;
   const discountedPrice =
     product.price - product.price * (product.discount / 100);
-
-  const formatPrice = (num) =>
-    new Intl.NumberFormat("en-US", { useGrouping: true })
-      .format(num)
-      .replace(/,/g, " ");
+  
   return (
     <article className="border border-neutral-200 py-2 px-4 flex flex-col gap-1">
       {/* Imagen del producto */}
