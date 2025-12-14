@@ -13,6 +13,7 @@ function ProductFilters({
   onApply,
   subCategories = [],
   defaultSubcategories = {}, // opcional: { [url]: true/false }
+  className = "",
 }) {
   const [range, setRange] = useState(defaultRange);
   const [status, setStatus] = useState(defaultStatus);
@@ -73,11 +74,7 @@ function ProductFilters({
 
   return (
     <section
-      className="
-        w-full h-full lg:w-92
-        bg-white border border-neutral-200
-        p-5 space-y-8 
-      "
+      className={"w-full h-full lg:w-92 bg-white border border-neutral-200 p-5 space-y-8 " + className}
     >
       {/* FILTRO POR PRECIO */}
       <div>
