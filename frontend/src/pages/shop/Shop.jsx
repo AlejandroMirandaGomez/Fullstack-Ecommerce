@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 import ProductGrid from "../../components/ui/products/ProductGrid";
-import ProductFilters from "./ProductFilters";
+import ProductFilters from "../../components/ui/products/ProductFilters";
 import { LuSettings2 as Settings } from "react-icons/lu";
 
 import { useLocation } from "react-router-dom";
@@ -109,11 +109,6 @@ function Shop() {
             />
           </div>
         </div>
-
-        {/* <ProductFilters
-          subCategories={subMenu}
-          defaultSubcategories={defaultSubcategories}
-        /> */}
 
         {/* Product grid */}
         <ProductGrid

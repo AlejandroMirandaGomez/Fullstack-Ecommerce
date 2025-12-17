@@ -1,8 +1,8 @@
 import { useState, useEffect } from "react";
 import Slider from "@mui/material/Slider";
 
-import formatPrice from "../../util/FormatPrice";
-import Label from "./Label";
+import formatPrice from "../../../util/FormatPrice";
+import Label from "../../../pages/shop/Label";
 
 function ProductFilters({
   min = 0,
@@ -19,11 +19,10 @@ function ProductFilters({
   const [status, setStatus] = useState(defaultStatus);
   const [selectedSubcategories, setSelectedSubcategories] =
     useState(defaultSubcategories);
-  
+
   useEffect(() => {
     setSelectedSubcategories(defaultSubcategories);
   }, [defaultSubcategories]);
-
 
   const handleRangeChange = (_, newValue) => {
     setRange(newValue);
