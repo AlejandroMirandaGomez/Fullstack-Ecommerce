@@ -77,19 +77,13 @@ function Shop() {
         </button>
       </div>
 
-      <div className="flex flex-col lg:flex-row gap-6">
-        {/* 
-          Single instance of ProductFilters (never unmounted)
-          Behavior:
-          - Mobile: behaves like an overlay panel
-          - Desktop: behaves like a static sidebar
-        */}
+      <div className="flex flex-col lg:flex-row gap-2">
+        {/* Product Filters */}
         <div
           className={`
-            z-40 
             ${
               showMobileFilters
-                ? "fixed inset-0 bg-black/40 lg:static lg:bg-transparent"
+                ? "fixed inset-0 bg-black/60 lg:static lg:bg-transparent z-40"
                 : "hidden lg:block"
             }
             flex items-start justify-center
@@ -103,7 +97,7 @@ function Shop() {
             className={`
               w-full max-w-md 
               mt-24 lg:mt-0 
-              lg:w-72 lg:shrink-0
+              lg:shrink-0
               ${showMobileFilters ? "opacity-100" : "opacity-0 lg:opacity-100"}
               transition-opacity duration-200
             `}
@@ -112,10 +106,14 @@ function Shop() {
             <ProductFilters
               subCategories={subMenu}
               defaultSubcategories={defaultSubcategories}
-              className="rounded-xl bg-white lg:bg-transparent shadow-xl lg:shadow-none"
             />
           </div>
         </div>
+
+        {/* <ProductFilters
+          subCategories={subMenu}
+          defaultSubcategories={defaultSubcategories}
+        /> */}
 
         {/* Product grid */}
         <ProductGrid
