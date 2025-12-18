@@ -6,23 +6,26 @@ function ProductCard({ product }) {
     product.price - product.price * (product.discount / 100);
   
   return (
-    <article className="border border-neutral-200 py-2 px-4 flex flex-col gap-1">
+    <article className="border border-neutral-200 py-2 px-4 flex flex-col gap-1 select-none">
       {/* Imagen del producto */}
       <figure className="h-52 w-60 flex items-center justify-center">
         <img
           src={product.imageUrl}
           alt={product.name}
+          draggable={false}
           className="max-h-full max-w-full object-contain"
         />
       </figure>
 
       {/* Nombre */}
-      <h2 className="font-bold text-md my-2">{product.name}</h2>
+      <h2 className="font-bold text-md my-2 swiper-no-swiping cursor-text select-text">
+        {product.name}
+      </h2>
 
       {/* Estado de inventario */}
       <p
         className={
-          "uppercase font-semibold text-xs " +
+          "uppercase select-none font-semibold text-xs " +
           (product.inStock ? "text-green-700" : "text-red-700")
         }
       >
@@ -30,7 +33,7 @@ function ProductCard({ product }) {
       </p>
 
       {/* Precio */}
-      <div className="mt-1 flex items-center gap-2">
+      <div className="mt-1 flex items-center gap-2 swiper-no-swiping cursor-text select-text">
         {hasDiscount ? (
           <>
             <span className="text-neutral-400 line-through text-sm">

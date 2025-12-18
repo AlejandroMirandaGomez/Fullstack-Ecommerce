@@ -1,4 +1,5 @@
 import ProductLine from "./ProductLine";
+import ProductLineSwiper from "./ProductLineSwiper";
 
 function ProductSection({ data, className = "" }) {
   return (
@@ -6,7 +7,7 @@ function ProductSection({ data, className = "" }) {
       <h2 className="font-bold uppercase text-xl">{data.title}</h2>
       <p className="text-neutral-700">{data.description}</p>
       <div className="pt-6">
-        <ProductLine products={data.products} />
+        <ProductLineSwiper products={data.products} />
       </div>
     </section>
   );
