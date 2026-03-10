@@ -4,9 +4,9 @@ function ProductCard({ product }) {
   const hasDiscount = product.discount > 0;
   const discountedPrice =
     product.price - product.price * (product.discount / 100);
-  
+
   return (
-    <article className="border border-neutral-200 py-2 px-4 flex flex-col gap-1 select-none">
+    <article className="relative border border-neutral-200 py-2 px-4 flex flex-col gap-1 select-none">
       {/* Imagen del producto */}
       <figure className="h-52 w-60 flex items-center justify-center">
         <img
@@ -61,8 +61,17 @@ function ProductCard({ product }) {
           </span>
         </button>
       </div>
+
+      {/* Indicador de descuento */}
+      {hasDiscount && (
+        <div className="absolute top-2 left-2 bg-sky-400 text-white text-sm font-bold px-3 py-1 rounded-md">
+          {product.discount}%
+        </div>
+      )}
     </article>
+
   );
+
 }
 
 export default ProductCard;
